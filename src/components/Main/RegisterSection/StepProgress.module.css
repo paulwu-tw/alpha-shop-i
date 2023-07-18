@@ -1,0 +1,45 @@
+.progressContainer {
+    /* outline: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 24px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.progressIcon {
+    display: inline-block;
+    margin-right: 5px;
+    border: none;
+    border-radius: 50%;
+    background-color: black;
+    width: 27px;
+    height: 27px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.progressBar {
+    display: flex;
+    flex-grow: 1;
+    max-width: 60px;
+    height: 1px;
+    margin: 0px 8px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.progressLabel {
+    font-weight: 400;
+    line-height: 24px;
+    color: #2A2A2A;
+}
+
+.text {
+    text-align: center;
+}

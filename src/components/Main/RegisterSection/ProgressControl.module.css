@@ -1,0 +1,35 @@
+.progressControlContainer {
+    /* outline: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 540px;
+    height: 72px;
+}
+
+.btnGroup {
+    display: flex;
+}
+
+.nextStepBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 174px;
+    height: 46px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background-color: #EE749E;
+}
+
+.rightArrow,
+.leftArrow {
+    fill: black;
+}
+
+.rightArrow {
+    margin-left: 5px;    
+}

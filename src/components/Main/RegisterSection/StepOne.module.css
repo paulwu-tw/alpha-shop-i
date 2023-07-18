@@ -1,0 +1,108 @@
+.formContainer {
+    /* outline: 1px solid green; */
+    width: 540px;
+    height: 288px;
+}
+
+.formTitle {
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.formBody {
+    /* outline: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 540px;
+    height: 264px;
+}
+
+.inputWrap {
+    /* outline: 1px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.inputLabel {
+    font-size: 12px;
+    font-weight: 700;
+    color: #808080;
+}
+
+.selectTitleGroup {
+    /* outline: 1px solid red; */
+    width: 160px;
+    height: 64px;
+}
+
+.selectContainer {
+    /* display: flex; */
+    width: 158px;
+    height: 44px;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.inputNameBox {
+    width: 350px;
+    height: 40px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.inputNameGroup {
+    /* outline: 1px solid red; */
+    width: 350px;
+    height: 64px;
+}
+
+.inputPhoneBox {
+    width: 250px;
+    height: 40px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.inputPhoneGroup {
+    /* outline: 1px solid red; */
+    width: 255px;
+    height: 64px;
+}
+
+.inputMailBox {
+    width: 264px;
+    height: 42px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.inputMailGroup {
+    /* outline: 1px solid red; */
+    width: 266px;
+    height: 64px;
+}
+
+.selectCityGroup {
+    width: 160px;
+    height: 64px;
+}
+
+.inputAdressGroup {
+    width: 350px;
+    height: 64px;
+}
+
+.inputAdressBox {
+    width: 350px;
+    height: 40px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,9 @@
+.mainContainer {
+    /* outline: 1px solid red; */
+    margin-left: 165px;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    width: 536px;
+    height: 550px;
+}
