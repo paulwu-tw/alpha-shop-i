@@ -1,11 +1,12 @@
-import styles from './App.module.css'
-import RegisterSection from './components/Main/RegisterSection/Index';
+
+// import RegisterSection from './components/Main/RegisterSection/Index';
+import Main from './components/Main/Main';
 
 function App() {
   return (
-    <section className={styles.mainContainer}>
-      <RegisterSection />
-    </section>
+    <>
+      <Main />
+    </>
   );
 }
 
