@@ -51,9 +51,10 @@ function SelectWrap({ selectGroup, selectData, name }) {
 
     let options = []
     options.push(<option key={0} value="" defaultValue>請選擇{name}</option>)
-    Object.keys(selectData).forEach((element) => {
+
+    Object.keys(selectData).map((element) => 
         options.push(<option key={element} value={element}>{selectData[element]}</option>)
-    });
+    );
 
     return (
         <div className={selectGroup}>
