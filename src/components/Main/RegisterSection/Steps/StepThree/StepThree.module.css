@@ -1,0 +1,48 @@
+.formContainer {
+    width: 535px;
+    height: 288px;
+    border-bottom: 1px solid rgb(237, 227, 227);
+}
+
+.payInfoTitle {
+
+}
+
+.formBody {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 262px;
+}
+
+.cardHolderInfo {
+    
+    width: 350px;
+    
+}
+
+.cardLabelText {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.cardInput {
+    width: 350px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.cardSecretSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardSecretInput {
+    width: 255px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}

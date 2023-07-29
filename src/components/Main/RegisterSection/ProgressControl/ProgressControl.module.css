@@ -9,9 +9,22 @@
 
 .btnGroup {
     display: flex;
+    justify-content: space-between;
+    width: 540px;
 }
 
-.nextStepBtn {
+.preStepBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #ffffff;
+}
+
+.nextStepBtn, .confirmBtn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,11 +38,11 @@
     background-color: #EE749E;
 }
 
-.rightArrow,
 .leftArrow {
     fill: black;
+    margin-right: 5px;
 }
 
 .rightArrow {
-    margin-left: 5px;    
+    margin-left: 5px;
 }

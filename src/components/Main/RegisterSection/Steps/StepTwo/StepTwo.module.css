@@ -1,0 +1,36 @@
+.formContainer {
+    
+    width: 535px;
+    height: 288px;
+    border-bottom: 1px solid rgb(237, 227, 227);
+}
+
+.labelContainer {
+    
+    display: flex;
+    align-items: center;
+    width: 535px;
+    height: 60px;
+    margin-top: 20px;
+    border: 1px solid rgb(195, 184, 184);
+    border-radius: 5px;
+}
+
+.radioInfo {
+    margin-left: 5px;
+}
+
+.shippingInfo {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.shippingTimeText {
+    font-size: 12px;
+    font-weight: 400;
+}

@@ -1,18 +1,18 @@
 .formContainer {
-    /* outline: 1px solid green; */
+    
     width: 540px;
     height: 288px;
+    border-bottom: 1px solid rgb(237, 227, 227);
 }
 
 .formTitle {
     display: flex;
     font-weight: 700;
-    font-size: 24px;
     line-height: 24px;
 }
 
 .formBody {
-    /* outline: 1px solid red; */
+    
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -22,7 +22,7 @@
 }
 
 .inputWrap {
-    /* outline: 1px solid blue; */
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -36,13 +36,13 @@
 }
 
 .selectTitleGroup {
-    /* outline: 1px solid red; */
+    
     width: 160px;
     height: 64px;
 }
 
 .selectContainer {
-    /* display: flex; */
+    
     width: 158px;
     height: 44px;
     text-align: center;
@@ -58,7 +58,7 @@
 }
 
 .inputNameGroup {
-    /* outline: 1px solid red; */
+    
     width: 350px;
     height: 64px;
 }
@@ -71,7 +71,7 @@
 }
 
 .inputPhoneGroup {
-    /* outline: 1px solid red; */
+    
     width: 255px;
     height: 64px;
 }
@@ -84,7 +84,7 @@
 }
 
 .inputMailGroup {
-    /* outline: 1px solid red; */
+    
     width: 266px;
     height: 64px;
 }

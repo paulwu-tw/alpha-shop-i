@@ -1,5 +1,5 @@
 .progressContainer {
-    /* outline: 1px solid red; */
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,6 +34,12 @@
     border-color: black;
 }
 
+.progressInfoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .progressLabel {
     font-weight: 400;
     line-height: 24px;
@@ -41,5 +47,7 @@
 }
 
 .text {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
